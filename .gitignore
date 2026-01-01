@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# compiled css and js
+*.css.map
+*.js.map
+*.min.css
+*.min.js
+
+# build output css/js
+dist/
+build/
+*.bundle.css
+*.bundle.js
