@@ -51,3 +51,14 @@ dist/
 build/
 *.bundle.css
 *.bundle.js
+
+# Ignore artifacts
+**/node_modules
+**/dist
+**/build
+**/.storybook
+**/.vscode
+**/.git
+**/.github
+**/coverage
+**/public
