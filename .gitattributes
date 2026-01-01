@@ -1,0 +1,35 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout
+*.ts text
+*.tsx text
+*.js text
+*.jsx text
+*.json text
+*.css text
+*.md text
+
+# Denote all files that are truly binary and should not be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+
+# Exclude config files from language statistics (GitHub Linguist)
+eslint.config.* linguist-generated=true
+*.config.js linguist-generated=true
+*.config.mjs linguist-generated=true
+*.config.ts linguist-generated=true
+
+# Exclude CSS from statistics (optional - uncomment if needed)
+# *.css linguist-generated=true
+
+# Or alternatively, count config files as TypeScript:
+# eslint.config.* linguist-language=TypeScript
+
