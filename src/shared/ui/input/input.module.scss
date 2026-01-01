@@ -1,0 +1,91 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--blue-11);
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 14px;
+    padding-right: 42px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid var(--blue-6);
+    background-color: var(--blue-2);
+    color: var(--blue-12);
+    transition: all 0.2s;
+    outline: none;
+    font-family: inherit;
+
+    &:focus {
+        border-color: var(--blue-9);
+        box-shadow: 0 0 0 3px var(--blue-a3);
+    }
+
+    &::placeholder {
+        color: var(--blue-8);
+    }
+}
+
+.toggleButton {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: var(--blue-10);
+    cursor: pointer;
+    transition: color 0.2s;
+    outline: none;
+
+    &:hover {
+        color: var(--blue-11);
+    }
+
+    &:focus-visible {
+        color: var(--blue-11);
+        outline: 2px solid var(--blue-9);
+        outline-offset: 2px;
+        border-radius: 4px;
+    }
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    color: currentColor;
+}
+
+.error {
+    border-color: #ef4444;
+
+    &:focus {
+        border-color: #ef4444;
+        box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+    }
+}
+
+.errorMessage {
+    font-size: 12px;
+    color: #ef4444;
+}
+

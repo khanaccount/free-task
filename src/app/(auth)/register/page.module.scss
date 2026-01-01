@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: var(--blue-1);
+    position: relative;
+}
+
+.themeToggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+

@@ -8,4 +8,6 @@ coverage
 *.lock
 package-lock.json
 yarn.lock
+*.scss
+*.sass
 
