@@ -21,7 +21,6 @@ module.exports = {
         "type-case": [2, "always", "lower-case"],
         "type-empty": [2, "never"],
         "subject-empty": [2, "never"],
-        "subject-case": [2, "always", ["lower-case", "sentence-case"]],
         "subject-full-stop": [2, "never", "."],
         "subject-max-length": [2, "always", 50],
         "scope-case": [2, "always", "lower-case"],
@@ -30,6 +29,5 @@ module.exports = {
         "footer-leading-blank": [1, "always"],
         "footer-max-line-length": [2, "always", 72],
         "header-max-length": [2, "always", 100],
-        "header-case": [2, "always", ["lower-case", "sentence-case"]],
     },
 }
